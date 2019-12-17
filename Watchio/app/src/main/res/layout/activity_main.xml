@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center"
+    tools:context=".UI.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/baner"
+        android:layout_width="240dp"
+        android:layout_height="210dp"
+        android:layout_marginBottom="40dp"
+        />
+
+
+  <TextView
+      android:id="@+id/moviestv"
+      android:fontFamily="@font/ubuntu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:textColor="@color/white"
+      android:textSize="25sp"
+      android:text="movies"
+      />
+  <TextView
+      android:id="@+id/tv_showsTV"
+      android:fontFamily="@font/ubuntu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="25sp"
+      android:layout_margin="20dp"
+      android:textColor="@color/white"
+      android:text="tv shows"
+      />
+
+
+  <com.google.android.material.button.MaterialButton
+      android:textColor="@color/main_orange"
+      android:fontFamily="@font/ubuntu"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:background="@color/white"
+      android:textSize="25sp"
+      android:textAllCaps="false"
+      android:id="@+id/tvShowsBtnStart"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:text="explore"/>
+
+<!--    <TextView-->
+<!--        android:fontFamily="@font/ubuntu"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:textColor="#FF7D47"-->
+<!--        android:text="explore"-->
+<!--        />-->
+
+
+</LinearLayout>

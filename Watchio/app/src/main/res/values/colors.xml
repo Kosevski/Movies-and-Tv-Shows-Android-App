@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C85700</color>
+    <color name="colorPrimaryDark">#C85700</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="DarkBackground">#0E1A52</color>
+    <color name="ItemCardBackground">#010118</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#101010</color>
+    <color name="main_orange">#C85700</color>
+    <color name="light_dark_grey">#202020</color>
+</resources>
