@@ -63,9 +63,9 @@ public class GetPopularMoviesAdapter extends RecyclerView.Adapter<GetPopularMovi
         String vote =  String.valueOf(result.getVote_average());
         holder.votes_average.setText(vote);
 
-        String picasoUrl = "https://image.tmdb.org/t/p/w500/"+ result.getBackdrop_path();
+        String picassoURL = "https://image.tmdb.org/t/p/w500/"+ result.getBackdrop_path();
 
-        Picasso.get().load(picasoUrl).into(holder.moviePoster);
+        Picasso.get().load(picassoURL).into(holder.moviePoster);
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
