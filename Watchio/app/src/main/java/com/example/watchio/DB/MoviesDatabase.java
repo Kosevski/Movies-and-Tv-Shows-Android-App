@@ -15,7 +15,7 @@ import com.example.watchio.GetMovie.GetUpcomingMovies.Models.ResultsGetUpcomingM
 
 
 @Database(entities = {ResultsGetNowPlayingMovies.class, ResultsGetTopRatedMovies.class,
-        ResultsGetPopularMovies.class, ResultsGetUpcomingMovies.class}, version = 2)
+        ResultsGetPopularMovies.class, ResultsGetUpcomingMovies.class}, version = 2,exportSchema = false)
 public abstract class MoviesDatabase extends RoomDatabase {
 
 
